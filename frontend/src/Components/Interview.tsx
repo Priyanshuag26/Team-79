@@ -112,7 +112,7 @@ export const Interview = () => {
                 </div>
                 <div className="chat-feedback">
                   {isLoading === false && (
-                    <p className="feedback-heading">Feedback</p>
+                    <p className="feedback-heading"></p>
                   )}
                   {isLoading ? (
                     <div className="loader">
